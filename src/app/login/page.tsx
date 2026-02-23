@@ -12,7 +12,7 @@ export default function LoginPage() {
   return (
     <>
       <Header />
-      <main className="pt-20">
+      <main className="-pt-0">
         <LoginContent />
       </main>
       <Footer />

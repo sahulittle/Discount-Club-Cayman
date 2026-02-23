@@ -2,6 +2,6 @@ import React from 'react'
 
 export const KidsRecreational = () => {
   return (
-    <div>KidsRecreational</div>
+    <div  id="kids" >KidsRecreational</div>
   )
 }

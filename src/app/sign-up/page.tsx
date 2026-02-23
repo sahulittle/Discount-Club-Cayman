@@ -12,10 +12,10 @@ export default function SignUpPage() {
   return (
     <>
       <Header />
-      <main className="pt-20">
+      <main className="pt-24">
         <SignUpContent />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

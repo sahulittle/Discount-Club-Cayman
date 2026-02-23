@@ -53,7 +53,7 @@ export default function SignUpContent() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-16 md:py-24">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-16 md:py-24 ">
       {/* Background decoration */}
       <div className="fixed inset-0 pointer-events-none">
         <div className="absolute top-0 left-0 w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iZ3JpZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNIDQwIDAgTCAwIDAgMCA0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJyaWJhKDMwLCA1OCwgMTM5LCAwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-100"></div>
@@ -402,14 +402,14 @@ export default function SignUpContent() {
                     <button
                       type="button"
                       onClick={() => setStep(2)}
-                      className="flex-1 px-6 py-3 border-2 border-slate-200 rounded-xl font-semibold hover:border-[31C4D8D] hover:text-[#1C4D8D] transition-all"
+                      className="flex-1 px-6 py-3 border-2 border-slate-200 rounded-xl font-semibold hover:border-[#1C4D8D] hover:text-[#1C4D8D] transition-all"
                     >
                       Back
                     </button>
                     <button
                       type="button"
                       onClick={() => setStep(4)}
-                      className="flex-1 px-6 py-3 bg-[#1C4D8D] text-[#1C4D8D] rounded-xl font-bold hover:bg-[#1C4D8D]/90 transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+                      className="flex-1 px-6 py-3 bg-[#1C4D8D] text-primary-foreground rounded-xl font-bold hover:bg-[#1C4D8D]/90 transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
                     >
                       Continue
                       <Icon name="ArrowRightIcon" size={20} />
@@ -481,11 +481,11 @@ export default function SignUpContent() {
                     />
                     <label htmlFor="terms" className="text-sm text-muted-foreground">
                       I agree to the{' '}
-                      <Link href="/terms" className="text-[30F2854] hover:underline">
+                      <Link href="/terms" className="text-[#0F2854] hover:underline">
                         Terms of Service
                       </Link>{' '}
                       and{' '}
-                      <Link href="/privacy" className="text-[#0F2854] hover:underline">
+                      <Link href="/privacy-policy" className="text-[#0F2854] hover:underline">
                         Privacy Policy
                       </Link>
                     </label>

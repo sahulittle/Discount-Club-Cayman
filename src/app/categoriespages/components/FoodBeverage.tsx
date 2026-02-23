@@ -2,6 +2,6 @@ import React from 'react'
 
 export const FoodBeverage = () => {
   return (
-    <div>FoodBeverage</div>
+    <div id="food" >FoodBeverage</div>
   )
 }

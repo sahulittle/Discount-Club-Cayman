@@ -2,6 +2,6 @@ import React from 'react'
 
 export const AutomativeMarine = () => {
   return (
-    <div>Automative&Marine</div>
+    <div id="automotive-marine">Automative&Marine</div>
   )
 }

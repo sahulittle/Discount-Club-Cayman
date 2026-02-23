@@ -2,6 +2,6 @@ import React from 'react'
 
 export const BeautyBarber = () => {
   return (
-    <div>Beautybarber</div>
+    <div id="beauty">Beautybarber</div>
   )
 }

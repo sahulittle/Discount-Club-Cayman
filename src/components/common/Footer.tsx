@@ -41,8 +41,6 @@ export default function Footer() {
               <AppImage
                 src="/assets/images/DCC_Logo-1770984608226.png"
                 alt="Discount Club Cayman Logo"
-                width={144}
-                height={144}
                 className="w-32 h-32 object-contain"
               />
             </div>
