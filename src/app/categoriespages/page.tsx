@@ -30,8 +30,8 @@ const categoryComponents: { [key: string]: React.ComponentType } = {
   'retail': Retail,
 };
 
-export default function SingleCategoryPage({ params }: { params: { slug: string } }) {
-  const CategoryComponent = categoryComponents[params.slug];
+export default function SingleCategoryPage({ params }: { params: { category: string } }) {
+  const CategoryComponent = categoryComponents[params.category];
 
   if (!CategoryComponent) {
     notFound();

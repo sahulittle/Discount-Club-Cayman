@@ -25,7 +25,7 @@ export default function Categories() {
           
           {/* Automotive & Marine */}
           <Link
-            href="/category/automotive-marine"
+            href="/categoriespages/automotive-marine"
             className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
           >
             <div className="relative h-48 overflow-hidden">
@@ -63,7 +63,7 @@ export default function Categories() {
 
           {/* B2B Members */}
           <Link
-            href="/category/b2b"
+            href="/categoriespages/b2b"
             className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
           >
             <div className="relative h-48 overflow-hidden">
@@ -101,7 +101,7 @@ export default function Categories() {
 
           {/* Beauty Salon & Barber Shop */}
           <Link
-            href="/category/beauty"
+            href="/categoriespages/beauty"
             className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
           >
             <div className="relative h-48 overflow-hidden">
@@ -139,7 +139,7 @@ export default function Categories() {
 
           {/* Construction */}
           <Link
-            href="/category/construction"
+            href="/categoriespages/construction"
             className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
           >
             <div className="relative h-48 overflow-hidden">
@@ -177,7 +177,7 @@ export default function Categories() {
 
           {/* Electronics & Office Supplies */}
           <Link
-            href="/category/electronics"
+            href="/categoriespages/electronics"
             className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
           >
             <div className="relative h-48 overflow-hidden">
@@ -215,7 +215,7 @@ export default function Categories() {
 
           {/* Fashion and Clothing */}
           <Link
-            href="/category/fashion"
+            href="/categoriespages/fashion"
             className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
           >
             <div className="relative h-48 overflow-hidden">
@@ -253,7 +253,7 @@ export default function Categories() {
 
           {/* Financial Institutes */}
           <Link
-            href="/category/financial"
+            href="/categoriespages/financial"
             className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
           >
             <div className="relative h-48 overflow-hidden">
@@ -291,7 +291,7 @@ export default function Categories() {
 
           {/* Food & Beverage */}
           <Link
-            href="/category/food"
+            href="/categoriespages/food"
             className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
           >
             <div className="relative h-48 overflow-hidden">
@@ -329,7 +329,7 @@ export default function Categories() {
 
           {/* Health & Fitness */}
           <Link
-            href="/category/health"
+            href="/categoriespages/health"
             className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
           >
             <div className="relative h-48 overflow-hidden">
@@ -367,7 +367,7 @@ export default function Categories() {
 
           {/* Home & Garden */}
           <Link
-            href="/category/home"
+            href="/categoriespages/home"
             className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
           >
             <div className="relative h-48 overflow-hidden">
@@ -405,7 +405,7 @@ export default function Categories() {
 
           {/* Kids & Recreational */}
           <Link
-            href="/category/kids"
+            href="/categoriespages/kids"
             className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
           >
             <div className="relative h-48 overflow-hidden">
@@ -443,7 +443,7 @@ export default function Categories() {
 
           {/* Marketing & Media */}
           <Link
-            href="/category/marketing"
+            href="/categoriespages/marketing"
             className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
           >
             <div className="relative h-48 overflow-hidden">
@@ -481,7 +481,7 @@ export default function Categories() {
 
           {/* Retail */}
           <Link
-            href="/category/retail"
+            href="/categoriespages/retail"
             className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
           >
             <div className="relative h-48 overflow-hidden">
