@@ -4,56 +4,64 @@ import React, { useState } from 'react'
 const stores = [
   {
     id: 1,
-    name: "Fix It Celltronics",
-    image: "https://web.archive.org/web/20170127140735im_/https://clubsave.ky/media/Fix_It_Celltronics_240new.png",
-    description: "Whether your looking to purchase a new electronic device or need a quick fix by our qualified in store technicians , our company is your one stop shop. A wide variety of electronics are in stock at all times, we sell new and used devices at incredible prices!",
-    phone: "517-1710 / 923-2119",
-    email: " fixitcelltronics@gmail.com"
+    name: "Cayman Paradise Tours",
+    image: "https://web.archive.org/web/20170128114724im_/https://clubsave.ky/media/Cayman_Paradise_Tours_Logo_Color_Final240_final_sPshonp.jpg",
+    description: "Enjoy a wonderful day on the water with us... We offer a wide range of Boat Tours, stopping at various locations for swimming and ocean life interactions.",
+    phone: "926-7600 / 926-2371",
+    email: "cayman@paradisetours.com"
   },
   {
     id: 2,
-    name: "Compucay",
-    image: "https://web.archive.org/web/20170127212259im_/https://clubsave.ky/media/CompuCay240new.png",
-    description: "CompuCay is your source for cutting edge technology. We provide business management services and IT solutions for any small office, home office, store, resturant or large corporate enterprise. Whether you're in need of greater efficiency, ongoing or temporary support, or just want to maximize existing applications, CompuCay has the capabilities to get the job done.",
-    phone: "327-5587",
-    email: "sales@compucay.ky"
+    name: "Kings Sports Centre",
+    image: "https://web.archive.org/web/20170129034724im_/https://clubsave.ky/media/All_Logos_rgb-1kings_240x2403.jpg",
+    description: "King’s Sports Centre was established in 2002 and contains a bowling alley and lounge bar, two multipurpose rooms which are currently used for parties, aerobics, karate, and workshops. The facility also includes a 10,500 square foot multipurpose rink, used for roller skating, roller hockey, football, basketball, concerts, and shows. Additionally, the facility includes two squash courts, a rock climbing wall, bungee jumping, the Powerhouse Gym, steam rooms, and many other services.",
+    phone: " 9465464",
+    email: " kings@candw.ky"
   },
   {
     id: 3,
-    name: "FLOW",
-    image: "https://web.archive.org/web/20170127122247im_/https://clubsave.ky/media/Flow_negative_gradient_version_blue_copy_240x2402_SEQIlye.png",
-    description: "Hello, we're FLOW, the Caribbean's leading communications company. We're a fresh approach to telecommunications for the Caribbean. And we stand on a single principle.",
-    phone: "9497800",
-    email: "orders@officesupply.ky"
+    name: "G's & Gents",
+    image: "https://web.archive.org/web/20161021122644im_/https://clubsave.ky/media/Nectar_logo_2240new.jpg",
+    description: "Cayman's Exclusive Men's Outfitters. Get the finest in Men's wear for both G's and Gents.",
+    phone: "929-1234",
+    email: "gsandgents.cayman@gmail.com"
   },
   {
     id: 4,
-    name: "Cayphone Electronics",
-    image: "https://web.archive.org/web/20170128190655im_/https://clubsave.ky/media/Cayphone240new.jpg",
-    description: "Your one stop electronic store... We sell various brands of tablets to cell phones from Apple and Samsung to Blu, Sky, and other Android devices at competitive prices. Also offering a wide selection of accessories for your cell phones, tablets, gaming consoles and other electronic devices.",
-    phone: "928-1859",
-    email: "cayphone@gmail.com"
+    name: "Balloonimals345",
+    image: "https://web.archive.org/web/20170127090201im_/https://clubsave.ky/media/Ballooninmals345_240x240.jpg",
+    description: "Welcome to our company, believing in colorful fun for all ages and special occasions. We are artistic, friendly, creative & talented.",
+    phone: " 9177757 or 3233350",
+    email: "balloonimals345@gmail.com"
   },
   {
     id: 5,
-    name: "Lee's Office Products",
-    image: "https://web.archive.org/web/20170128171224im_/https://clubsave.ky/media/LEES_LOGO_NEW240.jpg",
-    description: "The one-stop shop for all your office supplies and printing needs. Offering a wide range of office, school supplies. Special orders are also available per your request. We also provide printing services such as flyers, banners, rack cards, vehicle wraps and more!",
-    phone: "949-2303",
-    email: "sales_leesofficeproducts@candw.ky"
+    name: "Lil Monkeys",
+    image: "https://web.archive.org/web/20170127041443im_/https://clubsave.ky/media/Lil_Monkeys_240new.jpg",
+    description: "Offering fun and activities for your kids, also catering for special events and birthday parties... Indoor Activities:Arcade Games, Party Rooms, Mini swing sets, Toddler Area, Children Playground, Slides and Ball pool, Mobile ride on toys, Kids mini shopping center with cart. Seating available in our cafeteria or by the indoor play area.",
+    phone: " 949-2580",
+    email: "lilmonkeyscayman@gmail.com"
+  },
+  {
+    id: 6,
+    name: "Paradise Vapors",
+    image: "https://web.archive.org/web/20170127203441im_/https://clubsave.ky/media/paradisevaporsnew_240x240_hGGA5mq.jpg",
+    description: "Tired of smoking cigarettes but find it hard to kick that nicotine craving? Come and see us as we stock a wide variety of electronic cigarettes. We also carry sub ohm box mods for huge clouds. Need replacement coils or a coil rebuild? No problem as we can build them for you and we can teach you .....",
+    phone: "938-8273",
+    email: "Info@paradisevapors.com.ky"
   }
 ];
 
-export const Electronicsoffice = () => {
+export const FashionClothing = () => {
   const [selectedStore, setSelectedStore] = useState<typeof stores[0] | null>(null);
 
   return (
-    <div id="electronics" className="container mx-auto px-4 py-8 -mt-24">
-      <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Electronics & Office</h2>
+    <div id="fashion" className="container mx-auto px-4 py-8 -mt-24">
+      <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">Recreational</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {stores.map((store) => (
           <div key={store.id} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
-            <div className="h-48 overflow-hidden">
+            <div className="h-48 overflow-hidden flex items-center justify-center bg-white p-2">
               <img 
                 src={store.image} 
                 alt={store.name} 

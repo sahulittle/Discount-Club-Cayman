@@ -4,13 +4,11 @@ import { B2BMembers } from '@/app/categoriespages/components/B2BMember';
 import { BeautyBarber } from '@/app/categoriespages/components/BeautyBarber';
 import { Construction } from '@/app/categoriespages/components/Construction';
 import { Electronicsoffice } from '@/app/categoriespages/components/Electronicsoffice';
-import { FashionClothing } from '@/app/categoriespages/components/FashionClothing';
-import { FinacialInstitutes } from '@/app/categoriespages/components/FinacialInstitutes';
+import { FashionClothing } from '@/app/categoriespages/components/Recreational';
 import { FoodBeverage } from '@/app/categoriespages/components/FoodBeverage';
 import { HealthFitness } from '@/app/categoriespages/components/HealthFitness';
 import { HomeGarden } from '@/app/categoriespages/components/HomeGarden';
-import { KidsRecreational } from '@/app/categoriespages/components/KidsRecreational';
-import { MarketingMedia } from '@/app/categoriespages/components/MarketingMedia';
+import { KidsFashion} from '@/app/categoriespages/components/KidsFashion';
 import { Retail } from '@/app/categoriespages/components/Retail';
 import { notFound } from 'next/navigation';
 
@@ -21,12 +19,10 @@ const categoryComponents: { [key: string]: React.ComponentType } = {
   'construction': Construction,
   'electronics': Electronicsoffice,
   'fashion': FashionClothing,
-  'financial': FinacialInstitutes,
   'food': FoodBeverage,
   'health': HealthFitness,
   'home': HomeGarden,
-  'kids': KidsRecreational,
-  'marketing': MarketingMedia,
+  'kids': KidsFashion,
   'retail': Retail,
 };
 

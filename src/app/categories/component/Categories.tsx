@@ -236,50 +236,12 @@ export default function Categories() {
                   <Icon name="ShoppingBagIcon" size={20} />
                 </div>
                 <h3 className="font-heading text-xl font-bold text-slate-900 group-hover:text-[#1C4D8D] transition-colors">
-                  Fashion and Clothing
+                  Recreational
                 </h3>
               </div>
 
               <p className="text-slate-500 text-sm leading-relaxed mb-6 flex-grow">
                 Stay stylish with offers on apparel, accessories, footwear, and jewelry.
-              </p>
-
-              <div className="flex items-center text-[#1C4D8D] font-semibold text-sm group/link">
-                Explore Category
-                <Icon name="ArrowRightIcon" size={16} className="ml-2 transition-transform group-hover/link:translate-x-1" />
-              </div>
-            </div>
-          </Link>
-
-          {/* Financial Institutes */}
-          <Link
-            href="/categoriespages/financial"
-            className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
-          >
-            <div className="relative h-48 overflow-hidden">
-              <div className="absolute inset-0 bg-slate-900/20 group-hover:bg-slate-900/10 transition-colors z-10" />
-              <AppImage
-                src="https://images.unsplash.com/photo-1565514020176-dbf227747046?q=80&w=2070&auto=format&fit=crop"
-                alt="Financial Institutes"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute top-4 right-4 z-20 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-slate-700 shadow-sm">
-                6 Deals
-              </div>
-            </div>
-
-            <div className="p-6 flex flex-col flex-grow">
-              <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-[#1C4D8D]">
-                  <Icon name="BanknotesIcon" size={20} />
-                </div>
-                <h3 className="font-heading text-xl font-bold text-slate-900 group-hover:text-[#1C4D8D] transition-colors">
-                  Financial Institutes
-                </h3>
-              </div>
-
-              <p className="text-slate-500 text-sm leading-relaxed mb-6 flex-grow">
-                Banking, insurance, and financial planning services at special member rates.
               </p>
 
               <div className="flex items-center text-[#1C4D8D] font-semibold text-sm group/link">
@@ -426,50 +388,12 @@ export default function Categories() {
                   <Icon name="FaceSmileIcon" size={20} />
                 </div>
                 <h3 className="font-heading text-xl font-bold text-slate-900 group-hover:text-[#1C4D8D] transition-colors">
-                  Kids & Recreational
+                  Kids & Fashion
                 </h3>
               </div>
 
               <p className="text-slate-500 text-sm leading-relaxed mb-6 flex-grow">
                 Fun activities, toys, educational resources, and entertainment for children.
-              </p>
-
-              <div className="flex items-center text-[#1C4D8D] font-semibold text-sm group/link">
-                Explore Category
-                <Icon name="ArrowRightIcon" size={16} className="ml-2 transition-transform group-hover/link:translate-x-1" />
-              </div>
-            </div>
-          </Link>
-
-          {/* Marketing & Media */}
-          <Link
-            href="/categoriespages/marketing"
-            className="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
-          >
-            <div className="relative h-48 overflow-hidden">
-              <div className="absolute inset-0 bg-slate-900/20 group-hover:bg-slate-900/10 transition-colors z-10" />
-              <AppImage
-                src="https://images.unsplash.com/photo-1557838923-2985c318be48?q=80&w=2031&auto=format&fit=crop"
-                alt="Marketing & Media"
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              <div className="absolute top-4 right-4 z-20 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-slate-700 shadow-sm">
-                9 Deals
-              </div>
-            </div>
-
-            <div className="p-6 flex flex-col flex-grow">
-              <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-[#1C4D8D]">
-                  <Icon name="MegaphoneIcon" size={20} />
-                </div>
-                <h3 className="font-heading text-xl font-bold text-slate-900 group-hover:text-[#1C4D8D] transition-colors">
-                  Marketing & Media
-                </h3>
-              </div>
-
-              <p className="text-slate-500 text-sm leading-relaxed mb-6 flex-grow">
-                Professional marketing, printing, media production, and advertising services.
               </p>
 
               <div className="flex items-center text-[#1C4D8D] font-semibold text-sm group/link">
